@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin ou utilisateur</title>
+</head>
+<body>
+    <h2>Choisissez votre type de compte</h2>
+    <form action="phpPage.php" method="POST">
+        <label for="typeCompte">Type de compte :</label>
+        <select id="typeCompte" name="typeCompte" required>
+            <option value="administrateur">Administrateur</option>
+            <option value="utilisateur">Utilisateur</option>
+        </select><br><br>
+
+        <input type="submit" value="envoyer">
+    </form>
+</body>
+</html>

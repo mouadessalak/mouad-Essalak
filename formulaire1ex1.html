@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Formulaire de bienvenue</h2>
+    <form action="phpPage.php" method="POST">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required><br><br>
+
+        <label for="age">Âge :</label>
+        <input type="number" id="age" name="age" required><br><br>
+
+
+    <h2>Choisissez votre couleur préférée</h2>
+        <label for="couleur">Couleur préférée :</label>
+        <select id="couleur" name="couleur">
+            <option value="rouge">Rouge</option>
+            <option value="vert">Vert</option>
+            <option value="bleu">Bleu</option>
+        </select><br><br>
+
+        <input type="submit" value="envoyer">
+    </form>
+</body>
+</html>

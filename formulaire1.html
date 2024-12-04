@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Connexion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        form {
+            margin: 50px auto;
+            width: 300px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: rgb(0, 30, 128);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+       h3{
+        color: rgb(23, 0, 128);
+       }
+    </style>
+</head>
+<body>
+    <form method="POST" action="exercice2.php">
+        <h3>Connexion</h3>
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" placeholder="saisir votre email" required>
+        <label for="password">Mot de passe :</label>
+        <input type="password" id="password" name="password" placeholder="saisir votre mot de passe" required>
+        <button type="submit">Se connecter</button>
+    </form>
+</body>
+</html>
